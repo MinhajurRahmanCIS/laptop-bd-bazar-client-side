@@ -33,7 +33,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/sevices',
                 element: <Services></Services>,
-                loader: () => fetch('https://http://localhost:1001/services')
+                loader: () => fetch('http://localhost:1001/services')
             },
             {
                 path: '/My_Product',
@@ -62,7 +62,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/servicereview/:id',
                 element: <UpdateReview></UpdateReview>,
-                loader: ({ params }) => { return fetch(`https://http://localhost:1001/servicereview/${params.id}`) }
+                loader: ({ params }) => { return fetch(`http://localhost:1001/servicereview/${params.id}`) }
             }
 
         ]

@@ -24,7 +24,7 @@ const UpdateReview = () => {
 
         console.log(updateReview);
 
-        fetch(`https://server-weld-eta.vercel.app/servicereview/${id}`, {
+        fetch(`http://localhost:1001/servicereview/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
