@@ -5,7 +5,7 @@ Project Deploy Site For Client side:
 Project Deploy Site For Server side: 
 
 
-Project Repository Link For Client side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-MinhajurRahmanCIS/blob/main/README.md \
+Project Repository Link For Client side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-MinhajurRahmanCIS \
 Project Repository Link For Server side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-MinhajurRahmanCIS 
 
 # Project Info
