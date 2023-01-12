@@ -1,17 +1,15 @@
 # Created By Md. Minhajur Rahman
 
-# Created By Md. Minhajur Rahman
-
 ## Project Name : `Laptop BD Bazar`
 Project Deploy Site For Client side: 
 Project Deploy Site For Server side: 
 
 
-Project Repository Link For Client side:  \
-Project Repository Link For Server side: 
+Project Repository Link For Client side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-MinhajurRahmanCIS/blob/main/README.md \
+Project Repository Link For Server side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-server-side-MinhajurRahmanCIS 
 
 # Project Info
-This is a Used Laptop  Website.
+This is a Used Laptop sell Website.
 ## Technologies  –
 1.     The Corders site is develop with react library.  
 2.     For the fastest route I used react router framework.
@@ -22,10 +20,10 @@ This is a Used Laptop  Website.
 7.     Use the email&password and Google authentication it help to secure information and trusted.
 8.     Using the mongoDB to store data and use them as API.
 ## Features and functionality –
-·         This is a  Foodie Service Site Where you can review order and add service.\
-·         You need to create account for the review.\
-·         You can see the reviews.\
-·         You can delete your review.\
-·         You can update your review.\
+·         This is a  Used Laptop sell Website Site Where you can sell laptops and add service.\
+·         You need to create account for to buy or sell.\
+·         You can buy laptop\
+·         You can sell your laptop.\
+·         Admin can control users activity.\
 ·         There two way you can login the site.\
 ·         You can view the full size image by clicking images.\
