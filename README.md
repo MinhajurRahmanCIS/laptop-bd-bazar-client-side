@@ -1,8 +1,8 @@
 # Created By Md. Minhajur Rahman
 
 ## Admin login :
-admin@gmail.com
-password:123456
+Mail Address: admin@gmail.com
+Password:123456
 
 
 ## Project Name : `Laptop BD Bazar`
