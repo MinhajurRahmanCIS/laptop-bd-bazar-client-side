@@ -1,7 +1,12 @@
 # Created By Md. Minhajur Rahman
 
+## Admin login :
+admin@gmail.com
+password:123456
+
+
 ## Project Name : `Laptop BD Bazar`
-Project Deploy Site For Client side: 
+Project Deploy Site For Client side: laptop-bd-bazar-client.web.app\
 Project Deploy Site For Server side: 
 
 
