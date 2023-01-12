@@ -1,14 +1,17 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import { Outlet } from 'react-router-dom';
-import Footer from '../Pages/Shared/Footer/Footer';
-import NavBar from '../Pages/Shared/NavBar/NavBar';
+import Footer from "../Shared/Footer";
+import Header from '../Shared/Header';
 
 const Main = () => {
     return (
         <div>
-          <NavBar></NavBar>
-          <Outlet></Outlet>
-          <Footer></Footer>
+            <Header></Header>
+            <Container>
+                <Outlet></Outlet>
+            </Container>
+            <Footer></Footer>
         </div>
     );
 };

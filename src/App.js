@@ -1,11 +1,15 @@
-import { RouterProvider } from 'react-router-dom';
+import logo from './logo.svg';
 import './App.css';
-import router from './Routes/Routes/Routes';
+import { routes } from './Routes/Routes'
+import { RouterProvider } from 'react-router-dom';
+import C_modal from './Pages/C_modal';
 
 function App() {
+
   return (
-    <div className="max-w-[1140px] mx-auto">
-      <RouterProvider router={router}></RouterProvider>
+    <div className="App">
+
+      <RouterProvider router={routes} />
     </div>
   );
 }
