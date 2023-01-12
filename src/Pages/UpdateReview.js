@@ -24,7 +24,7 @@ const UpdateReview = () => {
 
         console.log(updateReview);
 
-        fetch(`http://localhost:1001/servicereview/${id}`, {
+        fetch(`https://laptop-bd-bazar-server.vercel.app/servicereview/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

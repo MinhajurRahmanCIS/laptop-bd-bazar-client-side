@@ -28,12 +28,12 @@ export const routes = createBrowserRouter([
             {
                 path: '/categories/:Cat_name',
                 element: <PrivateRouter><Cetegories></Cetegories>,</PrivateRouter>,
-                loader: ({ params }) => fetch(`http://localhost:1001/categories/${params.Cat_name}`)
+                loader: ({ params }) => fetch(`https://laptop-bd-bazar-server.vercel.app/categories/${params.Cat_name}`)
             },
             {
                 path: '/sevices',
                 element: <Services></Services>,
-                loader: () => fetch('http://localhost:1001/services')
+                loader: () => fetch('https://laptop-bd-bazar-server.vercel.app/services')
             },
             {
                 path: '/My_Product',
@@ -62,7 +62,7 @@ export const routes = createBrowserRouter([
             {
                 path: '/servicereview/:id',
                 element: <UpdateReview></UpdateReview>,
-                loader: ({ params }) => { return fetch(`http://localhost:1001/servicereview/${params.id}`) }
+                loader: ({ params }) => { return fetch(`https://laptop-bd-bazar-server.vercel.app/servicereview/${params.id}`) }
             }
 
         ]

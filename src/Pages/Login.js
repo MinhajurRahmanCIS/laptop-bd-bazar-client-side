@@ -5,7 +5,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { FaGoogle } from "react-icons/fa";
 import { useContext } from 'react';
 import { AuthContext } from '../contexts/AuthProvider/AuthProvider';
-import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth';
+import {  GoogleAuthProvider } from 'firebase/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import useTitle from '../Hook/useTitle';

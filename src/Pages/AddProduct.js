@@ -46,7 +46,7 @@ const AddService = () => {
 
         console.log(newService)
 
-        fetch('http://localhost:1001/categories', {
+        fetch('https://laptop-bd-bazar-server.vercel.app/categories', {
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json',

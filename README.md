@@ -6,8 +6,8 @@ password:123456
 
 
 ## Project Name : `Laptop BD Bazar`
-Project Deploy Site For Client side: laptop-bd-bazar-client.web.app\
-Project Deploy Site For Server side: 
+Project Deploy Site For Client side: https://laptop-bd-bazar-client.web.app \
+Project Deploy Site For Server side: https://laptop-bd-bazar-server.vercel.app/
 
 
 Project Repository Link For Client side: https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-MinhajurRahmanCIS \

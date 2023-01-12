@@ -12,7 +12,7 @@ const MyReview = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:1001/review?User_email=${user?.email}`)
+        fetch(`https://laptop-bd-bazar-server.vercel.app/review?User_email=${user?.email}`)
             .then(response => response.json())
             .then(json => setreviews(json))
     }, [user]);

@@ -6,7 +6,7 @@ const All_Buyers = () => {
     const [reviews, setreviews] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:1001/Users?Roll=Buyer')
+        fetch('https://laptop-bd-bazar-server.vercel.app/Users?Roll=Buyer')
             .then(response => response.json())
             .then(json => setreviews(json))
     }, [user]);
@@ -16,7 +16,7 @@ const All_Buyers = () => {
         console.log(review._id)
         const confirmation = window.confirm("Are you sure you want to Delete!");
         if (confirmation) {
-            fetch(`http://localhost:1001/UserInfo/${review._id}`, {
+            fetch(`https://laptop-bd-bazar-server.vercel.app/UserInfo/${review._id}`, {
                 method: 'DELETE',
             })
                 .then((response) => response.json())

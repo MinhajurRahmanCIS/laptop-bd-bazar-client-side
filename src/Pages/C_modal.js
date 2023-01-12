@@ -36,7 +36,7 @@ const C_modal = ({ info }) => {
         }
 
         // POST modal data.
-        fetch('http://localhost:1001/bookingCollection', {
+        fetch('https://laptop-bd-bazar-server.vercel.app/bookingCollection', {
             method: "POST",
             headers: {
                 "Content-type": "application/json"

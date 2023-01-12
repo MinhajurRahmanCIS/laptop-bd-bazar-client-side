@@ -10,7 +10,7 @@ const My_Product = () => {
     const [reviews, setreviews] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:1001/my_product?Email=${user?.email}`)
+        fetch(`https://laptop-bd-bazar-server.vercel.app/my_product?Email=${user?.email}`)
             .then(response => response.json())
             .then(json => setreviews(json))
     }, [user]);
@@ -27,7 +27,7 @@ const My_Product = () => {
 
         const confirmation = window.confirm("Are you sure you want to DELETE this product");
         if (confirmation) {
-            fetch(`http://localhost:1001/My_products/${review._id}`, {
+            fetch(`https://laptop-bd-bazar-server.vercel.app/My_products/${review._id}`, {
                 method: 'DELETE',
             })
                 .then((response) => response.json())

@@ -76,7 +76,7 @@ const Register = () => {
 
 
     const fatching = (info) => {
-        fetch('http://localhost:1001/UserInfo', {
+        fetch('https://laptop-bd-bazar-server.vercel.app/UserInfo', {
             method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
